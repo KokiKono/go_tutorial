@@ -2,7 +2,7 @@ package controller
 
 import (
 	"github.com/goadesign/goa"
-	"github.com/pei0804/goa-stater/normal/app"
+	"github.com/KokiKono/go_tutorial/app"
 )
 
 // ExampleController implements the example resource.

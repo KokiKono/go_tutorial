@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/goadesign/goa"
-	"github.com/pei0804/goa-stater/normal/app"
+	"github.com/KokiKono/go_tutorial/app"
 )
 
 var (

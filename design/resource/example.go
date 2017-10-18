@@ -3,8 +3,8 @@ package resource
 import (
 	. "github.com/goadesign/goa/design"
 	. "github.com/goadesign/goa/design/apidsl"
-	. "github.com/pei0804/goa-stater/normal/design/constant"
-	"github.com/pei0804/goa-stater/normal/design/media"
+	. "github.com/KokiKono/go_tutorial/design/constant"
+	"github.com/KokiKono/go_tutorial/design/media"
 )
 
 var _ = Resource("example", func() {

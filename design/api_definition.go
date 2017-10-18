@@ -5,9 +5,9 @@ import (
 
 	. "github.com/goadesign/goa/design"
 	. "github.com/goadesign/goa/design/apidsl"
-	. "github.com/pei0804/goa-stater/normal/design/constant"
-	_ "github.com/pei0804/goa-stater/normal/design/models"
-	_ "github.com/pei0804/goa-stater/normal/design/resource"
+	. "github.com/KokiKono/go_tutorial/design/constant"
+	_ "github.com/KokiKono/go_tutorial/design/models"
+	_ "github.com/KokiKono/go_tutorial/design/resource"
 )
 
 var _ = API("pei0804/goa-stater", func() {

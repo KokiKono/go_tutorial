@@ -3,7 +3,7 @@ package models
 import (
 	"github.com/goadesign/gorma"
 	. "github.com/goadesign/gorma/dsl"
-	"github.com/pei0804/goa-stater/normal/design/media"
+	"github.com/KokiKono/go_tutorial/design/media"
 )
 
 var _ = StorageGroup("Model", func() {

@@ -8,10 +8,10 @@ import (
 	"github.com/deadcheat/goacors"
 	"github.com/goadesign/goa"
 	"github.com/goadesign/goa/middleware"
-	"github.com/pei0804/goa-stater/normal/app"
-	"github.com/pei0804/goa-stater/normal/controller"
-	"github.com/pei0804/goa-stater/normal/design"
-	"github.com/pei0804/goa-stater/normal/mymiddleware"
+	"github.com/KokiKono/go_tutorial/app"
+	"github.com/KokiKono/go_tutorial/controller"
+	"github.com/KokiKono/go_tutorial/design"
+	"github.com/KokiKono/go_tutorial/mymiddleware"
 )
 
 // Server 実行に必要な値を保持している

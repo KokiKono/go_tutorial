@@ -3,7 +3,7 @@
 
 ##### goa ######
 
-REPO:=github.com/pei0804/goa-stater/normal
+REPO:=github.com/KokiKono/go_tutorial
 
 init: depend bootstrap
 gen: clean generate
@@ -69,8 +69,8 @@ lint:
 
 ##### Change package name ######
 
-BEFORE:=github.com/pei0804/goa-stater/normal
-AFTER:=github.com/path/to
+BEFORE:=github.com/path/to
+AFTER:=github.com/KokiKono/go_tutorial
 
 change-package:
 	which gorep || go get -v github.com/novalagung/gorep
