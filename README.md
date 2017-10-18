@@ -1,11 +1,27 @@
-# goa-stater
+# normal
 
-It is a base code collection for using goa.
+```console
+$ go get github.com/pei0804/goa-stater
+$ cd normal
+$ make install
+$ make gen
+$ make run
+```
 
-## Contributing
+- [http://localhost:8080/](http://localhost:8080/)
+- [Swagger UI](http://localhost:8080/swaggerui/index.html)
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+## change package name
+
+1.Makefile update
+
+```
+BEFORE:=github.com/pei0804/goa-stater/normal
+AFTER:=github.com/path/to <---change
+```
+
+2.Run
+
+```
+$ make change-package
+```
